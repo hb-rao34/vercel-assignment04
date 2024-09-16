@@ -2,22 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
 }
 
 @layer utilities {
@@ -25,3 +18,23 @@ body {
     text-wrap: balance;
   }
 }
+
+.second
+{
+    height: 10%;
+    width: 100%;
+    background-color: rgb(235, 140, 140);
+    margin-bottom: auto;
+    position: top;
+    text-align: center;
+    font-size: medium;
+    
+}
+
+.text-lrg {
+  font-size: 25pt/* 18px */;
+  line-height: 1.75rem /* 28px */;
+}
+
+
+  
