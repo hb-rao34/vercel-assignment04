@@ -8,9 +8,7 @@ const page = () => {
       
 
 <figure className="bg-slate-100 rounded-xl p-8 dark:bg-slate-800">
-    <img className="w-24 
-
-h-24 rounded-full mx-auto" src="/01.jpg" alt="" width="384" height="512"></img>
+    <img className="w-28 h-28 rounded-full mx-auto" src="/01.jpg" alt="" width="394" height="524"></img>
     <div 
 
 className="pt-6 text-center space-y-4">
@@ -24,13 +22,9 @@ medium text-sky-500 dark:text-sky-400">
      
 
    <p className="text-lg font-small">
-              My Name is Habiba Ashraf and I'm a 
-
-creative problem solver with a passion for technology and
-                 innovation. With 
-
-a background in Google Ads/ Google Adwords, SEO, 
-                 and graphic designing,
+              My Name is Habiba Ashraf and I am a creative problem solver with 
+              a passion for technology and innovation. With a background in 
+              Google Ads/ Google Adwords SEO and graphic designing,
    
 
                I'm now excited to pivot into the field of AI development, where I can 
